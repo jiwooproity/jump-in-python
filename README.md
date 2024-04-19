@@ -15,13 +15,13 @@ Django는 MVC 아키텍처 패턴에서 영감을 받아 MVT 아키텍처를 사
 ![image](https://github.com/jiwooproity/jump-in-python/assets/58384366/52dd453c-cb06-4e93-a351-9d90d28e91b9)
 
 
-## MVT ( Model, View, Controller )
+## MVT ( Model, View, Template )
 
 `Model` 은 서버에서의 데이터베이스 작업이라고 생각하면 된다고 한다.
 
-`View` 는 브라우저 상에서 사용자에게 보여지는 페이지를 의미합니다.
+`Template` 는 브라우저 상에서 사용자에게 보여지는 페이지를 의미합니다.
 
-`Controller` 는 `Model` 에다가 일을 시키는 작업을 진행한다.
+`View` 는 `Model` 에다가 일을 시키는 작업을 진행한다.
 
 사용자는 뷰를 통해 컨트롤러를 실행하고 `Model` 에 필요한 작업을 요청한다.
 
